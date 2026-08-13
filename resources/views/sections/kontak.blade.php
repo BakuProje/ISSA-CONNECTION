@@ -21,7 +21,7 @@
 
                 <div class="space-y-4 pt-2">
 
-                    <a href="https://wa.me/628114130666" target="_blank" rel="noopener noreferrer"
+                    <a href="https://wa.me/6281147001554" target="_blank" rel="noopener noreferrer"
                         class="flex items-center gap-4 p-5 bg-white/20 backdrop-blur-md border border-[#c5a059]/20 rounded-2xl shadow-sm hover:shadow-md hover:border-[#c5a059] transition-all duration-200 group">
                         <div
                             class="w-12 h-12 rounded-xl bg-neutral-950 text-[#c5a059] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
@@ -34,7 +34,7 @@
                             <div class="text-[11px] font-bold text-[#c5a059] tracking-wider uppercase">WHATSAPP</div>
                             <div
                                 class="text-base font-bold text-slate-900 group-hover:text-[#c5a059] transition-colors">
-                                +62 811-4130-666</div>
+                                +62 811-4700-1554</div>
                         </div>
                     </a>
 
@@ -79,7 +79,7 @@
             <div class="lg:col-span-6">
                 <div class="relative w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-white">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.7399933004913!2d119.45237217590301!3d-5.1454984520243325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee31d942593d5%3A0x7c18b5f3a9789051!2sCV%20ALSARA!5e0!3m2!1sid!2sid!4v1786607041972!5m2!1sid!2sid"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.6245250251695!2d119.46538787590323!3d-5.163954352161265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee30015a9e331%3A0xfef2e5edbf25b892!2sPesona%20Nirwana%20Borong%20Raya!5e0!3m2!1sid!2sid!4v1786628060002!5m2!1sid!2sid"
                         width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="strict-origin-when-cross-origin" class="w-full h-96 lg:h-[420px] rounded-3xl">
                     </iframe>

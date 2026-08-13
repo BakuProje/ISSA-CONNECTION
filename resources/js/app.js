@@ -40,9 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const isScrolled = window.scrollY > 50;
 
         if (isScrolled) {
-            header.className = "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-3 bg-[#faf6ee] border-b border-[#c5a059]/25 shadow-sm";
+            header.className = "fixed top-0 left-0 right-0 z-[100] transition-all duration-300 py-3 bg-[#faf6ee] border-b border-[#c5a059]/25 shadow-sm";
         } else {
-            header.className = "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 bg-transparent border-none";
+            header.className = "fixed top-0 left-0 right-0 z-[100] transition-all duration-300 py-4 bg-transparent border-none";
         }
 
         // Active section highlight logic
@@ -103,24 +103,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 const relativeIdx = idx - swipedCount;
 
                 if (relativeIdx === 0) {
-                    card.style.zIndex = '40';
+                    card.style.zIndex = '50';
                     card.style.transform = 'scale(1) rotate(1deg)';
                     card.style.opacity = '1';
                     card.style.pointerEvents = 'auto';
                 } else if (relativeIdx === 1) {
-                    card.style.zIndex = '30';
+                    card.style.zIndex = '40';
                     card.style.transform = 'scale(0.98) translate(-18px, 16px) rotate(-4deg)';
                     card.style.opacity = '0.95';
                     card.style.pointerEvents = 'none';
                 } else if (relativeIdx === 2) {
-                    card.style.zIndex = '20';
+                    card.style.zIndex = '30';
                     card.style.transform = 'scale(0.96) translate(22px, -14px) rotate(5deg)';
                     card.style.opacity = '0.88';
                     card.style.pointerEvents = 'none';
                 } else if (relativeIdx === 3) {
-                    card.style.zIndex = '10';
+                    card.style.zIndex = '20';
                     card.style.transform = 'scale(0.94) translate(-32px, -10px) rotate(-7deg)';
                     card.style.opacity = '0.8';
+                    card.style.pointerEvents = 'none';
+                } else if (relativeIdx === 4) {
+                    card.style.zIndex = '10';
+                    card.style.transform = 'scale(0.92) translate(36px, 12px) rotate(8deg)';
+                    card.style.opacity = '0.7';
                     card.style.pointerEvents = 'none';
                 } else {
                     card.style.zIndex = '0';
@@ -133,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         updateStackStyles();
 
-        container.addEventListener('click', () => {
+        function swipeTopCard() {
             if (isResetting || swipedCount >= cards.length) return;
 
             const topCardIndex = swipedCount;
@@ -145,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const rotOffset = topCardIndex % 2 === 0 ? '25deg' : '-25deg';
                 topCard.style.transform = `translate(${xOffset}, -20%) rotate(${rotOffset})`;
                 topCard.style.opacity = '0';
-                topCard.style.zIndex = '50';
+                topCard.style.zIndex = '60';
                 topCard.style.pointerEvents = 'none';
 
                 swipedCount++;
@@ -173,7 +178,20 @@ document.addEventListener('DOMContentLoaded', () => {
                     }, 600);
                 }
             }
+        }
+
+        container.addEventListener('click', () => {
+            swipeTopCard();
+            resetAutoSwipe();
         });
+
+        // Auto-swipe every 4 seconds
+        let autoSwipeInterval = setInterval(swipeTopCard, 4000);
+
+        function resetAutoSwipe() {
+            clearInterval(autoSwipeInterval);
+            autoSwipeInterval = setInterval(swipeTopCard, 4000);
+        }
     }
 
     // Package Lightbox Modal logic (Zoom on click)
