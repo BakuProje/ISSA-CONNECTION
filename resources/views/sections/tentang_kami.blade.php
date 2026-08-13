@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
 
         <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
-            <span class="text-xs font-extrabold tracking-widest text-[#c5a059] uppercase">NILAI KAMI</span>
+            <span class="text-xs font-extrabold tracking-widest text-[#c5a059] uppercase">TENTANG KAMI</span>
             <h2 class="text-xl xs:text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight whitespace-nowrap">
                 Komitmen Kami Untuk Anda
             </h2>
@@ -91,28 +91,36 @@
                         <span class="text-[10px] font-black tracking-widest text-[#c5a059] uppercase">MISI KAMI</span>
                         <ul class="space-y-2.5">
                             <li class="flex items-center gap-3">
-                                <span
-                                    class="w-5 h-5 bg-[#c5a059] text-neutral-950 rounded-full flex items-center justify-center text-[10px] font-bold">✓</span>
-                                <span class="text-slate-700 text-sm font-semibold">Memberikan layanan terbaik untuk
-                                    setiap pelanggan</span>
+                                <div class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                    </svg>
+                                </div>
+                                <span class="text-slate-700 text-sm font-semibold">Memberikan layanan terbaik untuk setiap pelanggan</span>
                             </li>
                             <li class="flex items-center gap-3">
-                                <span
-                                    class="w-5 h-5 bg-[#c5a059] text-neutral-950 rounded-full flex items-center justify-center text-[10px] font-bold">✓</span>
-                                <span class="text-slate-700 text-sm font-semibold">Menyediakan produk berkualitas dengan
-                                    harga terjangkau</span>
+                                <div class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                    </svg>
+                                </div>
+                                <span class="text-slate-700 text-sm font-semibold">Menyediakan produk berkualitas dengan harga terjangkau</span>
                             </li>
                             <li class="flex items-center gap-3">
-                                <span
-                                    class="w-5 h-5 bg-[#c5a059] text-neutral-950 rounded-full flex items-center justify-center text-[10px] font-bold">✓</span>
-                                <span class="text-slate-700 text-sm font-semibold">Terus berinovasi dalam dekorasi dan
-                                    pelayanan</span>
+                                <div class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                    </svg>
+                                </div>
+                                <span class="text-slate-700 text-sm font-semibold">Terus berinovasi dalam dekorasi dan pelayanan</span>
                             </li>
                             <li class="flex items-center gap-3">
-                                <span
-                                    class="w-5 h-5 bg-[#c5a059] text-neutral-950 rounded-full flex items-center justify-center text-[10px] font-bold">✓</span>
-                                <span class="text-slate-700 text-sm font-semibold">Membangun hubungan jangka panjang
-                                    dengan pelanggan</span>
+                                <div class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                    </svg>
+                                </div>
+                                <span class="text-slate-700 text-sm font-semibold">Membangun hubungan jangka panjang dengan pelanggan</span>
                             </li>
                         </ul>
                     </div>

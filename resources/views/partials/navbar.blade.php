@@ -10,9 +10,9 @@
                     class="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-200">
                 <div class="flex flex-col">
                     <span
-                        class="text-xl font-black text-slate-900 tracking-tight uppercase group-hover:text-[#c5a059] transition-colors">ISSA
+                        class="text-sm sm:text-base md:text-xl font-black text-slate-900 tracking-tight uppercase group-hover:text-[#c5a059] transition-colors leading-none">ISSA
                         CONNECTION</span>
-                    <span class="text-[10px] tracking-widest text-slate-400 font-semibold uppercase">Event &
+                    <span class="text-[8px] sm:text-[9px] md:text-[10px] tracking-widest text-slate-400 font-semibold uppercase mt-0.5">Event &
                         Decoration</span>
                 </div>
             </a>

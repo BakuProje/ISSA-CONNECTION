@@ -7,8 +7,8 @@
 
                 <div class="space-y-4 w-full">
                     <h1
-                        class="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[3.4rem] font-bold text-slate-900 tracking-tight leading-[1.18]">
-                        Sewa Tenda Pernikahan <br class="hidden sm:inline">
+                        class="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[2.85rem] font-bold text-slate-900 tracking-tight leading-[1.18]">
+                        Sewa Tenda Pernikahan <br>
                         <span class="text-[#c5a059]">& Dekorasi Terbaik</span>
                     </h1>
 
