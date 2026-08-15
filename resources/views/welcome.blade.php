@@ -16,25 +16,25 @@
     <meta property="og:url" content="https://issaconnection.com/">
     <meta property="og:title" content="ISSA CONNECTION | Jasa Sewa Tenda & Dekorasi Makassar">
     <meta property="og:description" content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
-    <meta property="og:image" content="https://issaconnection.com/images/og-image.jpg">
-    <meta property="og:image:secure_url" content="https://issaconnection.com/images/og-image.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://issaconnection.com/images/logobg.png">
+    <meta property="og:image:secure_url" content="https://issaconnection.com/images/logobg.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
     <meta property="og:locale" content="id_ID">
     <meta property="og:site_name" content="ISSA CONNECTION">
 
     <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="https://issaconnection.com/">
     <meta name="twitter:title" content="ISSA CONNECTION | Jasa Sewa Tenda & Dekorasi Makassar">
     <meta name="twitter:description" content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
-    <meta name="twitter:image" content="https://issaconnection.com/images/og-image.jpg">
+    <meta name="twitter:image" content="https://issaconnection.com/images/logobg.png">
 
     <!-- Preload LCP Image & Font to eliminate loading delay -->
     <link rel="preload" href="{{ asset('images/logobg.webp') }}" as="image" type="image/webp" fetchpriority="high">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Alex+Brush&text=Untuk%20Momen%20Terindah%20Anda&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&text=Untuk%20Momen%20Terindah%20Anda&display=swap"></noscript>
     <style>
         #fixed-bg {
             background-image: url('{{ asset('images/bgmobile.webp') }}');

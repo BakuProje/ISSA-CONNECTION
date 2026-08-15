@@ -43,7 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
             height: section.offsetHeight
         }));
     }
-    calculateSectionOffsets();
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(calculateSectionOffsets);
+    } else {
+        setTimeout(calculateSectionOffsets, 150);
+    }
     window.addEventListener('resize', calculateSectionOffsets, { passive: true });
 
     let isTicking = false;
