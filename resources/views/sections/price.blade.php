@@ -4,7 +4,7 @@
 
         <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
-            <span class="text-xs font-extrabold tracking-widest text-[#c5a059] uppercase">PRICE LIST</span>
+            <span class="text-xs font-extrabold tracking-widest text-[#8a6821] uppercase">PRICE LIST</span>
             <h2 class="text-xl xs:text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
                 Daftar Price List Lengkap & Transparan
             </h2>

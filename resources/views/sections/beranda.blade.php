@@ -105,28 +105,28 @@
                     <!-- Card 5 (Back-most) -->
                     <div class="deck-card absolute inset-0 overflow-hidden bg-slate-100/50 shadow-lg rounded-[2rem] border border-slate-200/40 transition-all duration-500 scale-90 -translate-x-6 -translate-y-4 -rotate-6 z-10 opacity-70"
                         data-index="4">
-                        <img src="{{ asset('images/berandapciture4.png') }}" alt="Layanan Tenda Issa Connection 4"
+                        <img src="{{ asset('images/berandapciture4.png') }}" alt="Layanan Tenda Issa Connection 4" width="600" height="600"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 
                     <!-- Card 4 -->
                     <div class="deck-card absolute inset-0 overflow-hidden bg-slate-100/50 shadow-lg rounded-[2rem] border border-slate-200/40 transition-all duration-500 scale-90 -translate-x-6 -translate-y-4 -rotate-6 z-10 opacity-70"
                         data-index="3">
-                        <img src="{{ asset('images/berandapciture3.png') }}" alt="Layanan Tenda Issa Connection 3"
+                        <img src="{{ asset('images/berandapciture3.png') }}" alt="Layanan Tenda Issa Connection 3" width="750" height="563"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 
                     <!-- Card 3 -->
                     <div class="deck-card absolute inset-0 overflow-hidden bg-slate-100/50 shadow-lg rounded-[2rem] border border-slate-200/40 transition-all duration-500 scale-95 translate-x-4 -translate-y-2 rotate-3 z-20 opacity-80"
                         data-index="2">
-                        <img src="{{ asset('images/berandapciture2.png') }}" alt="Layanan Tenda Issa Connection 2"
+                        <img src="{{ asset('images/berandapciture2.png') }}" alt="Layanan Tenda Issa Connection 2" width="750" height="422"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 
                     <!-- Card 2 -->
                     <div class="deck-card absolute inset-0 overflow-hidden bg-slate-100/50 shadow-lg rounded-[2rem] border border-slate-200/40 transition-all duration-500 scale-[0.98] -translate-x-2 translate-y-3 -rotate-2 z-30 opacity-90"
                         data-index="1">
-                        <img src="{{ asset('images/berandapciture.png') }}" alt="Layanan Tenda Issa Connection 1"
+                        <img src="{{ asset('images/berandapciture.png') }}" alt="Layanan Tenda Issa Connection 1" width="750" height="422"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 
@@ -136,7 +136,7 @@
                         <div
                             class="absolute inset-0 border border-[#c5a059]/30 rounded-[2rem] pointer-events-none z-50">
                         </div>
-                        <img src="{{ asset('images/logobg.png') }}" alt="Issa Connection Logo Brand"
+                        <img src="{{ asset('images/logobg.png') }}" alt="Issa Connection Logo Brand" width="600" height="600" fetchpriority="high"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 

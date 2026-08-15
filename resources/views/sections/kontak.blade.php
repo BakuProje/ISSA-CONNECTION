@@ -79,6 +79,7 @@
             <div class="lg:col-span-6">
                 <div class="relative w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-white">
                     <iframe
+                        title="Peta Lokasi Issa Connection Makassar"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.6245250251695!2d119.46538787590323!3d-5.163954352161265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee30015a9e331%3A0xfef2e5edbf25b892!2sPesona%20Nirwana%20Borong%20Raya!5e0!3m2!1sid!2sid!4v1786628060002!5m2!1sid!2sid"
                         width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="strict-origin-when-cross-origin" class="w-full h-96 lg:h-[420px] rounded-3xl">
