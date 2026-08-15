@@ -31,7 +31,7 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="text-[11px] font-bold text-[#c5a059] tracking-wider uppercase">WHATSAPP</div>
+                            <div class="text-[11px] font-bold text-[#7a5917] tracking-wider uppercase">WHATSAPP</div>
                             <div
                                 class="text-base font-bold text-slate-900 group-hover:text-[#c5a059] transition-colors">
                                 +62 811-4700-1554</div>
@@ -49,7 +49,7 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="text-[11px] font-bold text-[#c5a059] tracking-wider uppercase">WEBSITE</div>
+                            <div class="text-[11px] font-bold text-[#7a5917] tracking-wider uppercase">WEBSITE</div>
                             <div
                                 class="text-base font-bold text-slate-900 group-hover:text-[#c5a059] transition-colors">
                                 https://www.alsara.co.id/</div>
@@ -66,7 +66,7 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="text-[11px] font-bold text-[#c5a059] tracking-wider uppercase">INSTAGRAM</div>
+                            <div class="text-[11px] font-bold text-[#7a5917] tracking-wider uppercase">INSTAGRAM</div>
                             <div
                                 class="text-base font-bold text-slate-900 group-hover:text-[#c5a059] transition-colors">
                                 @alsara</div>

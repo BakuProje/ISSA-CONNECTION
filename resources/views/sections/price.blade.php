@@ -61,7 +61,7 @@
                     </li>
                     <li class="flex justify-between items-center py-1">
                         <span class="font-medium text-slate-600">Dekor Full</span>
-                        <span class="font-extrabold text-[#c5a059]">Rp 750.000</span>
+                        <span class="font-extrabold text-[#7a5917]">Rp 750.000</span>
                     </li>
                 </ul>
             </div>
@@ -92,7 +92,7 @@
                     </li>
                     <li class="flex justify-between items-center py-1">
                         <span class="font-medium text-slate-600">Dekor Full</span>
-                        <span class="font-extrabold text-[#c5a059]">Rp 850.000</span>
+                        <span class="font-extrabold text-[#7a5917]">Rp 850.000</span>
                     </li>
                 </ul>
             </div>
@@ -123,7 +123,7 @@
                     </li>
                     <li class="flex justify-between items-center py-1">
                         <span class="font-medium text-slate-600">Dekor Full</span>
-                        <span class="font-extrabold text-[#c5a059]">Rp 1.100.000</span>
+                        <span class="font-extrabold text-[#7a5917]">Rp 1.100.000</span>
                     </li>
                 </ul>
             </div>
@@ -154,7 +154,7 @@
                     </li>
                     <li class="flex justify-between items-center py-1">
                         <span class="font-medium text-slate-600">Dekor Full</span>
-                        <span class="font-extrabold text-[#c5a059]">Rp 1.200.000</span>
+                        <span class="font-extrabold text-[#7a5917]">Rp 1.200.000</span>
                     </li>
                 </ul>
             </div>
@@ -185,7 +185,7 @@
                     </li>
                     <li class="flex justify-between items-center py-1">
                         <span class="font-medium text-slate-600">Dekor Full</span>
-                        <span class="font-extrabold text-[#c5a059]">Rp 1.300.000</span>
+                        <span class="font-extrabold text-[#7a5917]">Rp 1.300.000</span>
                     </li>
                 </ul>
             </div>
@@ -216,7 +216,7 @@
                     </li>
                     <li class="flex justify-between items-center py-1">
                         <span class="font-medium text-slate-600">Dekor Full</span>
-                        <span class="font-extrabold text-[#c5a059]">Rp 2.800.000</span>
+                        <span class="font-extrabold text-[#7a5917]">Rp 2.800.000</span>
                     </li>
                 </ul>
             </div>
@@ -247,7 +247,7 @@
                     </li>
                     <li class="flex justify-between items-center py-1">
                         <span class="font-medium text-slate-600">Dekor Full</span>
-                        <span class="font-extrabold text-[#c5a059]">Rp 4.000.000</span>
+                        <span class="font-extrabold text-[#7a5917]">Rp 4.000.000</span>
                     </li>
                 </ul>
             </div>
@@ -278,7 +278,7 @@
                     </li>
                     <li class="flex justify-between items-center py-1">
                         <span class="font-medium text-slate-600">Dekor Full</span>
-                        <span class="font-extrabold text-[#c5a059]">Rp 5.500.000</span>
+                        <span class="font-extrabold text-[#7a5917]">Rp 5.500.000</span>
                     </li>
                 </ul>
             </div>
@@ -356,13 +356,13 @@
                             class="flex justify-between items-center gap-4 py-1.5 border-b border-dashed border-slate-100">
                             <span class="font-semibold text-slate-800">Sofa Jati Tunggal</span>
                             <span
-                                class="font-extrabold text-[#c5a059] bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
+                                class="font-extrabold text-[#7a5917] bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
                                 100.000 <span class="text-[10px] text-slate-400 font-normal">/ unit</span></span>
                         </li>
                         <li class="flex justify-between items-center gap-4 py-1.5">
                             <span class="font-semibold text-slate-800">Sofa Jati Triple</span>
                             <span
-                                class="font-extrabold text-[#c5a059] bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
+                                class="font-extrabold text-[#7a5917] bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
                                 300.000 <span class="text-[10px] text-slate-400 font-normal">/ unit</span></span>
                         </li>
                     </ul>
@@ -417,14 +417,14 @@
                             class="flex justify-between items-center gap-4 py-1.5 border-b border-dashed border-slate-100">
                             <span class="font-semibold text-slate-800">Meja Jati</span>
                             <span
-                                class="font-extrabold text-[#c5a059] bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
+                                class="font-extrabold text-[#7a5917] bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
                                 250.000 <span class="text-[10px] text-slate-400 font-normal">/ unit</span></span>
                         </li>
                         <li
                             class="flex justify-between items-center gap-4 py-1.5 border-b border-dashed border-slate-100">
                             <span class="font-semibold text-slate-800">Meja Akad Set</span>
                             <span
-                                class="font-extrabold text-[#c5a059] bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
+                                class="font-extrabold text-[#7a5917] bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
                                 600.000 <span class="text-[10px] text-slate-400 font-normal">/ set</span></span>
                         </li>
                         <li
@@ -526,7 +526,7 @@
                 <div class="flex justify-between items-center gap-4 py-2.5 border-b border-dashed border-slate-100">
                     <span class="font-semibold text-slate-800 text-sm">AC Standing 5PK</span>
                     <span
-                        class="font-extrabold text-[#c5a059] text-sm bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
+                        class="font-extrabold text-[#7a5917] text-sm bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
                         1.250.000 <span class="text-[10px] text-slate-400 font-normal">/ unit</span></span>
                 </div>
                 <div class="flex justify-between items-center gap-4 py-2.5 border-b border-dashed border-slate-100">
@@ -538,7 +538,7 @@
                 <div class="flex justify-between items-center gap-4 py-2.5 border-b border-dashed border-slate-100">
                     <span class="font-semibold text-slate-800 text-sm">Karpet VIP</span>
                     <span
-                        class="font-extrabold text-[#c5a059] text-sm bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
+                        class="font-extrabold text-[#7a5917] text-sm bg-[#faf6ee] px-3 py-1 rounded-full border border-[#c5a059]/10 whitespace-nowrap shrink-0">Rp
                         150.000 <span class="text-[10px] text-slate-400 font-normal">/ lembar</span></span>
                 </div>
                 <div class="flex justify-between items-center gap-4 py-2.5 border-b border-dashed border-slate-100">

@@ -81,14 +81,14 @@
                     </div>
 
                     <div class="space-y-2">
-                        <span class="text-[10px] font-black tracking-widest text-[#c5a059] uppercase">VISI KAMI</span>
+                        <span class="text-[10px] font-black tracking-widest text-[#7a5917] uppercase">VISI KAMI</span>
                         <h4 class="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                             Menjadi penyedia layanan tenda dan dekorasi acara terbaik dan terpercaya di Indonesia.
                         </h4>
                     </div>
 
                     <div class="space-y-3">
-                        <span class="text-[10px] font-black tracking-widest text-[#c5a059] uppercase">MISI KAMI</span>
+                        <span class="text-[10px] font-black tracking-widest text-[#7a5917] uppercase">MISI KAMI</span>
                         <ul class="space-y-2.5">
                             <li class="flex items-center gap-3">
                                 <div class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
