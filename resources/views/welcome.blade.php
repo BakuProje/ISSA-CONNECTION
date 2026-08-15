@@ -11,10 +11,28 @@
     <meta name="keywords"
         content="Issa Connection, Sewa Tenda Makassar, Jasa Sewa Tenda Makassar, Sewa Tenda Pernikahan Makassar, Dekorasi Pernikahan Makassar, Sewa Kursi Makassar, Sewa Meja Makassar, Sewa Tenda Murah Makassar">
     <meta name="google-site-verification" content="Aq0OVChriUSz1c9nfoDLnswWLV8CssePyA2X-A6Kr-c" />
-    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Open Graph / WhatsApp / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://issaconnection.com/">
+    <meta property="og:title" content="ISSA CONNECTION | Jasa Sewa Tenda & Dekorasi Makassar">
+    <meta property="og:description" content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
+    <meta property="og:image" content="https://issaconnection.com/images/og-image.jpg">
+    <meta property="og:image:secure_url" content="https://issaconnection.com/images/og-image.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="ISSA CONNECTION">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://issaconnection.com/">
+    <meta name="twitter:title" content="ISSA CONNECTION | Jasa Sewa Tenda & Dekorasi Makassar">
+    <meta name="twitter:description" content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
+    <meta name="twitter:image" content="https://issaconnection.com/images/og-image.jpg">
+
+    <!-- Preload LCP Image & Font to eliminate loading delay -->
+    <link rel="preload" href="{{ asset('images/logobg.webp') }}" as="image" type="image/webp" fetchpriority="high">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap"></noscript>
     <style>
