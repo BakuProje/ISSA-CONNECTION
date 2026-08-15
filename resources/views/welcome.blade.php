@@ -36,16 +36,16 @@
     <!-- Local Business Schema for Local SEO -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@@context": "https://schema.org",
+      "@@type": "LocalBusiness",
       "name": "Issa Connection",
       "image": "https://issaconnection.com/images/logobg.png",
-      "@id": "https://issaconnection.com/#localbusiness",
+      "@@id": "https://issaconnection.com/#localbusiness",
       "url": "https://issaconnection.com",
       "telephone": "+628114130666",
       "priceRange": "$$",
       "address": {
-        "@type": "PostalAddress",
+        "@@type": "PostalAddress",
         "streetAddress": "Pesona Nirwana Borong Raya",
         "addressLocality": "Makassar",
         "addressRegion": "Sulawesi Selatan",
@@ -53,12 +53,12 @@
         "addressCountry": "ID"
       },
       "geo": {
-        "@type": "GeoCoordinates",
+        "@@type": "GeoCoordinates",
         "latitude": -5.163954,
         "longitude": 119.465387
       },
       "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
+        "@@type": "OpeningHoursSpecification",
         "dayOfWeek": [
           "Monday",
           "Tuesday",
