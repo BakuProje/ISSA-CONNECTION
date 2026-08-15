@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ISSA CONNECTION - Jasa Sewa Tenda & Dekorasi Pernikahan Makassar</title>
+    <title>ISSA CONNECTION</title>
 
     <meta name="description"
         content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik, berkualitas, dan harga murah kompetitif di Makassar.">
-    <meta name="keywords" content="Issa Connection, Sewa Tenda Makassar, Jasa Sewa Tenda Makassar, Sewa Tenda Pernikahan Makassar, Dekorasi Pernikahan Makassar, Sewa Kursi Makassar, Sewa Meja Makassar, Sewa Tenda Murah Makassar">
+    <meta name="keywords"
+        content="Issa Connection, Sewa Tenda Makassar, Jasa Sewa Tenda Makassar, Sewa Tenda Pernikahan Makassar, Dekorasi Pernikahan Makassar, Sewa Kursi Makassar, Sewa Meja Makassar, Sewa Tenda Murah Makassar">
     <meta name="google-site-verification" content="Aq0OVChriUSz1c9nfoDLnswWLV8CssePyA2X-A6Kr-c" />
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
