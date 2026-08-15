@@ -34,10 +34,23 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', closeDrawer);
     });
 
-    // Scroll Handler for Transparent to Solid White Header
+    // Cache section positions to prevent Forced Reflow during scroll
+    let sectionOffsets = [];
+    function calculateSectionOffsets() {
+        sectionOffsets = Array.from(sections).map(section => ({
+            id: section.getAttribute('id'),
+            top: section.offsetTop - 180,
+            height: section.offsetHeight
+        }));
+    }
+    calculateSectionOffsets();
+    window.addEventListener('resize', calculateSectionOffsets, { passive: true });
+
+    let isTicking = false;
     function handleScroll() {
         if (!header) return;
-        const isScrolled = window.scrollY > 50;
+        const scrollY = window.scrollY;
+        const isScrolled = scrollY > 50;
 
         if (isScrolled) {
             header.className = "fixed top-0 left-0 right-0 z-[100] transition-all duration-300 py-3 bg-[#faf6ee] border-b border-[#c5a059]/25 shadow-sm";
@@ -47,20 +60,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Active section highlight logic
         let currentSectionId = 'beranda';
-        
-        // Detect if scrolled near the bottom of the page
-        const isAtBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 80);
+        const isAtBottom = (window.innerHeight + scrollY) >= (document.documentElement.scrollHeight - 80);
 
         if (isAtBottom) {
             currentSectionId = 'kontak';
         } else {
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop - 180;
-                const sectionHeight = section.offsetHeight;
-                if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
-                    currentSectionId = section.getAttribute('id');
+            for (let i = 0; i < sectionOffsets.length; i++) {
+                const s = sectionOffsets[i];
+                if (scrollY >= s.top && scrollY < s.top + s.height) {
+                    currentSectionId = s.id;
+                    break;
                 }
-            });
+            }
         }
 
         navLinks.forEach(link => {
@@ -82,7 +93,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', () => {
+        if (!isTicking) {
+            window.requestAnimationFrame(() => {
+                handleScroll();
+                isTicking = false;
+            });
+            isTicking = true;
+        }
+    }, { passive: true });
     handleScroll();
 
     // Interactive Swiping Card Stack

@@ -48,54 +48,6 @@
 
                 </div>
 
-                <div class="hidden sm:grid grid-cols-3 gap-6 pt-6 border-t border-slate-200/80 w-full">
-
-                    <div class="flex items-center gap-3 justify-start">
-                        <div
-                            class="w-10 h-10 bg-[#c5a059]/10 text-[#c5a059] rounded-xl flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
-                                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="flex flex-col text-left">
-                            <span class="text-xs font-extrabold text-slate-900 leading-tight">Kualitas Terbaik</span>
-                            <span class="text-[10px] text-slate-500">Material premium</span>
-                        </div>
-                    </div>
-
-                    <div class="flex items-center gap-3 justify-start">
-                        <div
-                            class="w-10 h-10 bg-[#c5a059]/10 text-[#c5a059] rounded-xl flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="flex flex-col text-left">
-                            <span class="text-xs font-extrabold text-slate-900 leading-tight">Tim Profesional</span>
-                            <span class="text-[10px] text-slate-500">Terpercaya & ahli</span>
-                        </div>
-                    </div>
-
-                    <div class="flex items-center gap-3 justify-start">
-                        <div
-                            class="w-10 h-10 bg-[#c5a059]/10 text-[#c5a059] rounded-xl flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="flex flex-col text-left">
-                            <span class="text-xs font-extrabold text-slate-900 leading-tight">Layanan Cepat</span>
-                            <span class="text-[10px] text-slate-500">Respon cepat & ramah</span>
-                        </div>
-                    </div>
-
-                </div>
             </div>
 
             <div class="lg:col-span-5 flex justify-center items-center w-full pt-8 lg:pt-0">
@@ -105,28 +57,28 @@
                     <!-- Card 5 (Back-most) -->
                     <div class="deck-card absolute inset-0 overflow-hidden bg-slate-100/50 shadow-lg rounded-[2rem] border border-slate-200/40 transition-all duration-500 scale-90 -translate-x-6 -translate-y-4 -rotate-6 z-10 opacity-70"
                         data-index="4">
-                        <img src="{{ asset('images/berandapciture4.png') }}" alt="Layanan Tenda Issa Connection 4" width="600" height="600"
+                        <img src="{{ asset('images/berandapciture4.webp') }}" alt="Layanan Tenda Issa Connection 4" width="600" height="600"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 
                     <!-- Card 4 -->
                     <div class="deck-card absolute inset-0 overflow-hidden bg-slate-100/50 shadow-lg rounded-[2rem] border border-slate-200/40 transition-all duration-500 scale-90 -translate-x-6 -translate-y-4 -rotate-6 z-10 opacity-70"
                         data-index="3">
-                        <img src="{{ asset('images/berandapciture3.png') }}" alt="Layanan Tenda Issa Connection 3" width="750" height="563"
+                        <img src="{{ asset('images/berandapciture3.webp') }}" alt="Layanan Tenda Issa Connection 3" width="750" height="563"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 
                     <!-- Card 3 -->
                     <div class="deck-card absolute inset-0 overflow-hidden bg-slate-100/50 shadow-lg rounded-[2rem] border border-slate-200/40 transition-all duration-500 scale-95 translate-x-4 -translate-y-2 rotate-3 z-20 opacity-80"
                         data-index="2">
-                        <img src="{{ asset('images/berandapciture2.png') }}" alt="Layanan Tenda Issa Connection 2" width="750" height="422"
+                        <img src="{{ asset('images/berandapciture2.webp') }}" alt="Layanan Tenda Issa Connection 2" width="750" height="422"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 
                     <!-- Card 2 -->
                     <div class="deck-card absolute inset-0 overflow-hidden bg-slate-100/50 shadow-lg rounded-[2rem] border border-slate-200/40 transition-all duration-500 scale-[0.98] -translate-x-2 translate-y-3 -rotate-2 z-30 opacity-90"
                         data-index="1">
-                        <img src="{{ asset('images/berandapciture.png') }}" alt="Layanan Tenda Issa Connection 1" width="750" height="422"
+                        <img src="{{ asset('images/berandapciture.webp') }}" alt="Layanan Tenda Issa Connection 1" width="750" height="422"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 
@@ -136,7 +88,7 @@
                         <div
                             class="absolute inset-0 border border-[#c5a059]/30 rounded-[2rem] pointer-events-none z-50">
                         </div>
-                        <img src="{{ asset('images/logobg.png') }}" alt="Issa Connection Logo Brand" width="600" height="600" fetchpriority="high"
+                        <img src="{{ asset('images/logobg.webp') }}" alt="Issa Connection Logo Brand" width="600" height="600" fetchpriority="high"
                             class="w-full h-full object-cover pointer-events-none">
                     </div>
 

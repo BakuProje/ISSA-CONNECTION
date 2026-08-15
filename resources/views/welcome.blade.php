@@ -15,21 +15,22 @@
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap"></noscript>
     <style>
         #fixed-bg {
-            background-image: url('{{ asset('images/bgmobile.png') }}');
+            background-image: url('{{ asset('images/bgmobile.webp') }}');
         }
 
         @media (min-width: 768px) {
             #fixed-bg {
-                background-image: url('{{ asset('images/bgtablet.png') }}');
+                background-image: url('{{ asset('images/bgtablet.webp') }}');
             }
         }
 
         @media (min-width: 1024px) {
             #fixed-bg {
-                background-image: url('{{ asset('images/bgwebsite.png') }}');
+                background-image: url('{{ asset('images/bgwebsite.webp') }}');
             }
         }
     </style>
@@ -40,7 +41,7 @@
       "@@context": "https://schema.org",
       "@@type": "LocalBusiness",
       "name": "Issa Connection",
-      "image": "https://issaconnection.com/images/logobg.png",
+      "image": "https://issaconnection.com/images/logobg.webp",
       "@@id": "https://issaconnection.com/#localbusiness",
       "url": "https://issaconnection.com",
       "telephone": "+628114130666",

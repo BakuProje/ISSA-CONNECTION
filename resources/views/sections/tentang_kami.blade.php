@@ -76,7 +76,7 @@
                 <div class="lg:col-span-7 space-y-6 relative">
 
                     <div class="absolute right-4 bottom-2 hidden sm:block pointer-events-none select-none">
-                        <img src="{{ asset('images/logo transparan.png') }}" alt="Logo Background"
+                        <img src="{{ asset('images/logo transparan.webp') }}" alt="Logo Background" width="200" height="200"
                             class="w-56 h-auto object-contain opacity-[0.07]">
                     </div>
 

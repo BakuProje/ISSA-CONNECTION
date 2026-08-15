@@ -4,9 +4,9 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
 
-            <!-- Brand Logo & Name (Using logo transparan.png) -->
+            <!-- Brand Logo & Name (Using logo transparan.webp) -->
             <a href="#beranda" class="flex items-center gap-3 group">
-                <img src="{{ asset('images/logo transparan.png') }}" alt="Issa Connection Logo"
+                <img src="{{ asset('images/logo transparan.webp') }}" alt="Issa Connection Logo" width="120" height="120"
                     class="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-200">
                 <div class="flex flex-col">
                     <span
@@ -64,7 +64,7 @@
         class="fixed top-0 right-0 bottom-0 w-[280px] bg-white z-[150] shadow-2xl transition-transform duration-300 translate-x-full lg:hidden flex flex-col p-6 space-y-6">
         <div class="flex items-center justify-between pb-4 border-b border-slate-100">
             <a href="#beranda" class="flex items-center gap-2">
-                <img src="{{ asset('images/logo transparan.png') }}" alt="Logo" class="h-10 w-auto object-contain">
+                <img src="{{ asset('images/logo transparan.webp') }}" alt="Logo" width="100" height="100" class="h-10 w-auto object-contain">
                 <span class="text-sm font-black text-slate-900 tracking-tight uppercase">ISSA CONNECTION</span>
             </a>
             <button id="mobile-menu-close" type="button" aria-label="Close menu"
