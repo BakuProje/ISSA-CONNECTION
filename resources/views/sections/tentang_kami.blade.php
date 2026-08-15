@@ -76,14 +76,14 @@
                 <div class="lg:col-span-7 space-y-6 relative">
 
                     <div class="absolute right-4 bottom-2 hidden sm:block pointer-events-none select-none">
-                        <img src="{{ asset('images/logo transparan.webp') }}" alt="Logo Background" width="200" height="200"
-                            class="w-56 h-auto object-contain opacity-[0.07]">
+                        <img src="{{ asset('images/logo transparan.webp') }}" alt="Logo Background" width="200"
+                            height="200" class="w-56 h-auto object-contain opacity-[0.07]">
                     </div>
 
                     <div class="space-y-2">
                         <span class="text-[10px] font-black tracking-widest text-[#7a5917] uppercase">VISI KAMI</span>
                         <h4 class="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                            Menjadi penyedia layanan tenda dan dekorasi acara terbaik dan terpercaya di Indonesia.
+                            Menjadi penyedia layanan tenda dan dekorasi acara terbaik dan terpercaya.
                         </h4>
                     </div>
 
@@ -91,36 +91,48 @@
                         <span class="text-[10px] font-black tracking-widest text-[#7a5917] uppercase">MISI KAMI</span>
                         <ul class="space-y-2.5">
                             <li class="flex items-center gap-3">
-                                <div class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
-                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                <div
+                                    class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        stroke-width="3.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                                     </svg>
                                 </div>
-                                <span class="text-slate-700 text-sm font-semibold">Memberikan layanan terbaik untuk setiap pelanggan</span>
+                                <span class="text-slate-700 text-sm font-semibold">Memberikan layanan terbaik untuk
+                                    setiap pelanggan</span>
                             </li>
                             <li class="flex items-center gap-3">
-                                <div class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
-                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                <div
+                                    class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        stroke-width="3.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                                     </svg>
                                 </div>
-                                <span class="text-slate-700 text-sm font-semibold">Menyediakan produk berkualitas dengan harga terjangkau</span>
+                                <span class="text-slate-700 text-sm font-semibold">Menyediakan produk berkualitas dengan
+                                    harga terjangkau</span>
                             </li>
                             <li class="flex items-center gap-3">
-                                <div class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
-                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                <div
+                                    class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        stroke-width="3.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                                     </svg>
                                 </div>
-                                <span class="text-slate-700 text-sm font-semibold">Terus berinovasi dalam dekorasi dan pelayanan</span>
+                                <span class="text-slate-700 text-sm font-semibold">Terus berinovasi dalam dekorasi dan
+                                    pelayanan</span>
                             </li>
                             <li class="flex items-center gap-3">
-                                <div class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
-                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                <div
+                                    class="w-5 h-5 bg-[#c5a059]/10 text-[#c5a059] rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        stroke-width="3.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                                     </svg>
                                 </div>
-                                <span class="text-slate-700 text-sm font-semibold">Membangun hubungan jangka panjang dengan pelanggan</span>
+                                <span class="text-slate-700 text-sm font-semibold">Membangun hubungan jangka panjang
+                                    dengan pelanggan</span>
                             </li>
                         </ul>
                     </div>

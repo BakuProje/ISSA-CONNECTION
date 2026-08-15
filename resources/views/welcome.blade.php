@@ -11,11 +11,11 @@
     <meta name="keywords"
         content="Issa Connection, Sewa Tenda Makassar, Jasa Sewa Tenda Makassar, Sewa Tenda Pernikahan Makassar, Dekorasi Pernikahan Makassar, Sewa Kursi Makassar, Sewa Meja Makassar, Sewa Tenda Murah Makassar">
     <meta name="google-site-verification" content="Aq0OVChriUSz1c9nfoDLnswWLV8CssePyA2X-A6Kr-c" />
-    <!-- Open Graph / WhatsApp / Facebook Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://issaconnection.com/">
     <meta property="og:title" content="ISSA CONNECTION | Jasa Sewa Tenda & Dekorasi Makassar">
-    <meta property="og:description" content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
+    <meta property="og:description"
+        content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
     <meta property="og:image" content="https://issaconnection.com/images/logobg.png">
     <meta property="og:image:secure_url" content="https://issaconnection.com/images/logobg.png">
     <meta property="og:image:type" content="image/png">
@@ -23,18 +23,20 @@
     <meta property="og:image:height" content="600">
     <meta property="og:locale" content="id_ID">
     <meta property="og:site_name" content="ISSA CONNECTION">
-
-    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="https://issaconnection.com/">
     <meta name="twitter:title" content="ISSA CONNECTION | Jasa Sewa Tenda & Dekorasi Makassar">
-    <meta name="twitter:description" content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
+    <meta name="twitter:description"
+        content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
     <meta name="twitter:image" content="https://issaconnection.com/images/logobg.png">
-
-    <!-- Preload LCP Image & Font to eliminate loading delay -->
     <link rel="preload" href="{{ asset('images/logobg.webp') }}" as="image" type="image/webp" fetchpriority="high">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Alex+Brush&text=Untuk%20Momen%20Terindah%20Anda&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&text=Untuk%20Momen%20Terindah%20Anda&display=swap"></noscript>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&text=Untuk%20Momen%20Terindah%20Anda&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Alex+Brush&text=Untuk%20Momen%20Terindah%20Anda&display=swap">
+    </noscript>
     <style>
         #fixed-bg {
             background-image: url('{{ asset('images/bgmobile.webp') }}');
@@ -53,7 +55,6 @@
         }
     </style>
 
-    <!-- Local Business Schema for Local SEO -->
     <script type="application/ld+json">
     {
       "@@context": "https://schema.org",
@@ -102,8 +103,6 @@
 
 <body
     class="font-sans text-slate-800 antialiased selection:bg-[#c5a059] selection:text-white flex flex-col min-h-screen overflow-x-hidden w-full bg-transparent">
-
-    <!-- Fixed Background Div (Resolves mobile background attachments scroll bug) -->
     <div class="fixed inset-0 z-[-1] bg-cover bg-center bg-no-repeat pointer-events-none" id="fixed-bg"></div>
 
     @include('partials.navbar')

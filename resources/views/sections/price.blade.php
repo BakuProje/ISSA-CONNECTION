@@ -1,20 +1,17 @@
-<!-- PRICE LIST SECTION -->
 <section id="price-list" class="pt-44 pb-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
             <span class="text-xs font-extrabold tracking-widest text-[#8a6821] uppercase">PRICE LIST</span>
             <h2 class="text-xl xs:text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-                Daftar Price List Lengkap & Transparan
+                Price List Lengkap & Transparan
             </h2>
-            <p class="text-slate-600 text-sm sm:text-base">
+            <p class="text-slate-600 text-sm sm:text-base text-justify">
                 Temukan rincian harga sewa tenda, dekorasi, meja, kursi, dan peralatan lainnya untuk mewujudkan event
                 impian Anda.
             </p>
         </div>
 
-        <!-- Category Pills (Interactive Tabs) -->
         <div class="flex flex-wrap justify-center gap-3 mb-10">
             <button onclick="switchCategory('tenda')" id="tab-tenda"
                 class="category-tab px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-200 bg-neutral-950 text-[#c5a059] shadow-md border border-[#c5a059]/40">
@@ -30,12 +27,9 @@
             </button>
         </div>
 
-        <!-- Tab Contents -->
-        <!-- CATEGORY 1: TENDA & DEKORASI -->
         <div id="content-tenda"
             class="category-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-300">
 
-            <!-- Tenda Kotak 3x5 -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3
@@ -66,7 +60,6 @@
                 </ul>
             </div>
 
-            <!-- Tenda Terowongan 4x... -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3
@@ -97,7 +90,6 @@
                 </ul>
             </div>
 
-            <!-- Tenda Kerucut 3x3 -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3
@@ -128,7 +120,6 @@
                 </ul>
             </div>
 
-            <!-- Tenda Kerucut 4x4 -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3
@@ -159,7 +150,6 @@
                 </ul>
             </div>
 
-            <!-- Tenda Kerucut 5x5 -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3
@@ -190,7 +180,6 @@
                 </ul>
             </div>
 
-            <!-- Tenda Hall 5x7 -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3
@@ -221,7 +210,6 @@
                 </ul>
             </div>
 
-            <!-- Tenda Hall 5x10 -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3
@@ -252,7 +240,6 @@
                 </ul>
             </div>
 
-            <!-- Tenda Hall 5x15 -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
                 <h3
@@ -284,10 +271,8 @@
             </div>
         </div>
 
-        <!-- CATEGORY 2: KURSI & MEJA -->
         <div id="content-kursi-meja"
             class="category-content hidden grid grid-cols-1 lg:grid-cols-2 gap-8 transition-all duration-300">
-            <!-- Kursi Card -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-3xl p-6 shadow-sm flex flex-col justify-between">
                 <div>
@@ -369,7 +354,6 @@
                 </div>
             </div>
 
-            <!-- Meja Card -->
             <div
                 class="bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-3xl p-6 shadow-sm flex flex-col justify-between">
                 <div>
@@ -466,7 +450,6 @@
             </div>
         </div>
 
-        <!-- CATEGORY 3: PERALATAN & HIASAN -->
         <div id="content-peralatan"
             class="category-content hidden bg-white/60 backdrop-blur-md border border-[#c5a059]/25 rounded-3xl p-6 shadow-sm transition-all duration-300">
             <h3
@@ -571,7 +554,6 @@
             </div>
         </div>
 
-        <!-- WhatsApp Action CTA -->
         <div class="mt-14 text-center">
             <a href="https://wa.me/6281147001554?text=Halo%20ISSA%20CONNECTION%2C%20saya%20tertarik%20untuk%20berkonsultasi%20mengenai%20sewa%20tenda%20dan%20dekorasi%20sesuai%20price%20list."
                 target="_blank" rel="noopener noreferrer"
@@ -587,15 +569,12 @@
     </div>
 </section>
 
-<!-- Tab Toggler Script -->
 <script>
     function switchCategory(category) {
-        // Hide all contents
         document.querySelectorAll('.category-content').forEach(el => {
             el.classList.add('hidden');
         });
 
-        // Show selected content
         const activeContent = document.getElementById('content-' + category);
         if (activeContent) {
             activeContent.classList.remove('hidden');
@@ -608,7 +587,6 @@
             }
         }
 
-        // Update tab styling
         document.querySelectorAll('.category-tab').forEach(tab => {
             tab.className =
                 "category-tab px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-200 bg-white/60 text-slate-700 hover:text-neutral-950 hover:bg-slate-100 border border-[#c5a059]/10";

@@ -1,4 +1,3 @@
-<!-- KONTAK SECTION -->
 <section id="kontak" class="py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -38,21 +37,20 @@
                         </div>
                     </a>
 
-                    <a href="https://www.alsara.co.id/" target="_blank" rel="noopener noreferrer"
+                    <a href="https://facebook.com/issaconnection" target="_blank" rel="noopener noreferrer"
                         class="flex items-center gap-4 p-5 bg-white/20 backdrop-blur-md border border-[#c5a059]/20 rounded-2xl shadow-sm hover:shadow-md hover:border-[#c5a059] transition-all duration-200 group">
                         <div
                             class="w-12 h-12 rounded-xl bg-neutral-950 text-[#c5a059] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9">
-                                </path>
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                             </svg>
                         </div>
                         <div>
-                            <div class="text-[11px] font-bold text-[#7a5917] tracking-wider uppercase">WEBSITE</div>
+                            <div class="text-[11px] font-bold text-[#7a5917] tracking-wider uppercase">FACEBOOK</div>
                             <div
                                 class="text-base font-bold text-slate-900 group-hover:text-[#c5a059] transition-colors">
-                                https://www.alsara.co.id/</div>
+                                Issa Connection</div>
                         </div>
                     </a>
 
@@ -78,8 +76,7 @@
 
             <div class="lg:col-span-6">
                 <div class="relative w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-white">
-                    <iframe
-                        title="Peta Lokasi Issa Connection Makassar"
+                    <iframe title="Peta Lokasi Issa Connection Makassar"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.6245250251695!2d119.46538787590323!3d-5.163954352161265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee30015a9e331%3A0xfef2e5edbf25b892!2sPesona%20Nirwana%20Borong%20Raya!5e0!3m2!1sid!2sid!4v1786628060002!5m2!1sid!2sid"
                         width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="strict-origin-when-cross-origin" class="w-full h-96 lg:h-[420px] rounded-3xl">

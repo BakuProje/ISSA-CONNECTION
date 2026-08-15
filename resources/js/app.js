@@ -1,9 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('contextmenu', (e) => e.preventDefault());
+    document.addEventListener('keydown', (e) => {
+        if (
+            e.key === 'F12' ||
+            (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'J' || e.key === 'j' || e.key === 'C' || e.key === 'c')) ||
+            (e.ctrlKey && (e.key === 'U' || e.key === 'u' || e.key === 'S' || e.key === 's'))
+        ) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
     const header = document.getElementById('main-header');
     const navLinks = document.querySelectorAll('.nav-link');
     const sections = document.querySelectorAll('section');
 
-    // Mobile navigation drawer logic
     const openBtn = document.getElementById('mobile-menu-btn');
     const closeBtn = document.getElementById('mobile-menu-close');
     const backdrop = document.getElementById('mobile-menu-backdrop');
@@ -34,7 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', closeDrawer);
     });
 
-    // Cache section positions to prevent Forced Reflow during scroll
     let sectionOffsets = [];
     function calculateSectionOffsets() {
         sectionOffsets = Array.from(sections).map(section => ({
@@ -62,7 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
             header.className = "fixed top-0 left-0 right-0 z-[100] transition-all duration-300 py-4 bg-transparent border-none";
         }
 
-        // Active section highlight logic
         let currentSectionId = 'beranda';
         const isAtBottom = (window.innerHeight + scrollY) >= (document.documentElement.scrollHeight - 80);
 
@@ -108,7 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
     handleScroll();
 
-    // Interactive Swiping Card Stack
     const container = document.getElementById('card-deck-container');
     if (container) {
         const cards = Array.from(container.querySelectorAll('.deck-card'));
@@ -119,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         function updateStackStyles() {
             if (isResetting) return;
-            
+
             cards.forEach((card, idx) => {
                 if (card.classList.contains('swiped')) return;
 
@@ -191,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 card.style.opacity = '';
                                 card.style.zIndex = '';
                                 card.style.pointerEvents = '';
-                                
+
                                 if (idx === 0) {
                                     isResetting = false;
                                     updateStackStyles();
@@ -208,7 +216,6 @@ document.addEventListener('DOMContentLoaded', () => {
             resetAutoSwipe();
         });
 
-        // Auto-swipe every 4 seconds
         let autoSwipeInterval = setInterval(swipeTopCard, 4000);
 
         function resetAutoSwipe() {
@@ -217,7 +224,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Package Lightbox Modal logic (Zoom on click)
     const lightbox = document.getElementById('package-lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
     const lightboxTitle = document.getElementById('lightbox-title');
@@ -229,11 +235,10 @@ document.addEventListener('DOMContentLoaded', () => {
             trigger.addEventListener('click', () => {
                 const src = trigger.getAttribute('data-src');
                 const title = trigger.getAttribute('data-title');
-                
+
                 lightboxImg.src = src;
                 lightboxTitle.textContent = title;
-                
-                // Show lightbox with scale-up effect
+
                 lightbox.classList.remove('opacity-0', 'pointer-events-none');
                 lightbox.classList.add('opacity-100', 'pointer-events-auto');
                 setTimeout(() => {
@@ -256,8 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 closeLightbox();
             }
         });
-        
-        // Escape key to close
+
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeLightbox();
         });
