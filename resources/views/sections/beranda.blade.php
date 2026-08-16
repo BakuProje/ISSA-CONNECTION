@@ -4,22 +4,21 @@
 
             <div class="lg:col-span-7 space-y-6 text-center lg:text-left flex flex-col items-center lg:items-start">
 
-                <div class="space-y-4 w-full">
+                <div class="space-y-3 w-full">
                     <h1
-                        class="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[2.85rem] font-bold text-slate-900 tracking-tight leading-[1.18]">
+                        class="font-heading text-3xl xs:text-4xl sm:text-5xl lg:text-[2.75rem] font-bold text-slate-900 tracking-tight leading-[1.18]">
                         Sewa Tenda Pernikahan <br>
-                        <span class="text-[#c5a059]">& Dekorasi Terbaik</span>
+                        <span class="font-heading text-[#8a6821] font-bold">& Dekorasi Terbaik</span>
                     </h1>
 
-                    <p class="text-2xl sm:text-3xl md:text-4xl text-[#c5a059] leading-none whitespace-nowrap"
+                    <p class="text-3xl xs:text-4xl sm:text-5xl lg:text-[2.75rem] text-[#8a6821] leading-tight pt-1 whitespace-nowrap"
                         style="font-family: 'Alex Brush', cursive; text-shadow: 0 1px 1px rgba(0,0,0,0.02);">
                         Untuk Momen Terindah Anda
                     </p>
 
                     <p
                         class="text-slate-600 text-sm sm:text-base max-w-2xl leading-relaxed mx-auto lg:mx-0 pt-2 text-justify lg:text-left">
-                        Issa Connection menyediakan layanan sewa tenda dan perlengkapan acara pernikahan dengan desain
-                        elegan, kualitas terbaik, dan pelayanan profesional untuk mewujudkan acara impian Anda.
+                        Issa Connection adalah penyedia Jasa Sewa Tenda Makassar & Jasa Dekorasi Makassar profesional. Kami menyediakan layanan sewa tenda pernikahan, tenda kerucut, dekorasi pengantin, serta perlengkapan acara berkualitas tinggi untuk mewujudkan momen impian Anda.
                     </p>
                 </div>
 

@@ -4,7 +4,7 @@
         <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
             <span class="text-xs font-extrabold tracking-widest text-[#8a6821] uppercase">PRICE LIST</span>
             <h2 class="text-xl xs:text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-                Price List Lengkap & Transparan
+                Pilihan Tenda & Dekorasi
             </h2>
             <p class="text-slate-600 text-sm sm:text-base text-justify">
                 Temukan rincian harga sewa tenda, dekorasi, meja, kursi, dan peralatan lainnya untuk mewujudkan event

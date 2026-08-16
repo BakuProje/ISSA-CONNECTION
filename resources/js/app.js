@@ -15,31 +15,76 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('.nav-link');
     const sections = document.querySelectorAll('section');
 
-    const openBtn = document.getElementById('mobile-menu-btn');
-    const closeBtn = document.getElementById('mobile-menu-close');
-    const backdrop = document.getElementById('mobile-menu-backdrop');
+    // Mobile navigation fullscreen dark menu logic with staggered animation
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const menuIconOpen = document.getElementById('menu-icon-open');
+    const menuIconClose = document.getElementById('menu-icon-close');
     const drawer = document.getElementById('mobile-menu-drawer');
     const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+    const navItems = document.querySelectorAll('.mobile-nav-item');
+    let isMenuOpen = false;
 
     function openDrawer() {
-        if (!drawer || !backdrop) return;
-        backdrop.classList.remove('pointer-events-none', 'opacity-0');
-        backdrop.classList.add('opacity-100');
-        drawer.classList.remove('translate-x-full');
-        drawer.classList.add('translate-x-0');
+        if (!drawer) return;
+        isMenuOpen = true;
+
+        if (menuIconOpen && menuIconClose) {
+            menuIconOpen.classList.remove('opacity-100', 'scale-100', 'rotate-0');
+            menuIconOpen.classList.add('opacity-0', 'scale-50', '-rotate-90');
+
+            menuIconClose.classList.remove('opacity-0', 'scale-50', 'rotate-90');
+            menuIconClose.classList.add('opacity-100', 'scale-100', 'rotate-0');
+        }
+
+        drawer.classList.remove('pointer-events-none', 'opacity-0');
+        drawer.classList.add('opacity-100', 'pointer-events-auto');
+        document.body.classList.add('overflow-hidden');
+
+        // Staggered entrance animation for text items ("muncul 1 per 1")
+        navItems.forEach((item, index) => {
+            setTimeout(() => {
+                if (isMenuOpen) {
+                    item.classList.remove('translate-y-8', 'opacity-0');
+                    item.classList.add('translate-y-0', 'opacity-100');
+                }
+            }, 100 + index * 90);
+        });
     }
 
     function closeDrawer() {
-        if (!drawer || !backdrop) return;
-        backdrop.classList.add('pointer-events-none', 'opacity-0');
-        backdrop.classList.remove('opacity-100');
-        drawer.classList.add('translate-x-full');
-        drawer.classList.remove('translate-x-0');
+        if (!drawer) return;
+        isMenuOpen = false;
+
+        if (menuIconOpen && menuIconClose) {
+            menuIconOpen.classList.remove('opacity-0', 'scale-50', '-rotate-90');
+            menuIconOpen.classList.add('opacity-100', 'scale-100', 'rotate-0');
+
+            menuIconClose.classList.remove('opacity-100', 'scale-100', 'rotate-0');
+            menuIconClose.classList.add('opacity-0', 'scale-50', 'rotate-90');
+        }
+
+        navItems.forEach(item => {
+            item.classList.remove('translate-y-0', 'opacity-100');
+            item.classList.add('translate-y-8', 'opacity-0');
+        });
+
+        drawer.classList.remove('opacity-100', 'pointer-events-auto');
+        drawer.classList.add('opacity-0', 'pointer-events-none');
+        document.body.classList.remove('overflow-hidden');
     }
 
-    if (openBtn) openBtn.addEventListener('click', openDrawer);
-    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
-    if (backdrop) backdrop.addEventListener('click', closeDrawer);
+    const menuCloseBtn = document.getElementById('mobile-menu-close');
+
+    function toggleDrawer() {
+        if (isMenuOpen) {
+            closeDrawer();
+        } else {
+            openDrawer();
+        }
+    }
+
+    if (menuBtn) menuBtn.addEventListener('click', toggleDrawer);
+    if (menuCloseBtn) menuCloseBtn.addEventListener('click', closeDrawer);
 
     mobileLinks.forEach(link => {
         link.addEventListener('click', closeDrawer);
@@ -60,16 +105,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     window.addEventListener('resize', calculateSectionOffsets, { passive: true });
 
+    let lastScrollY = 0;
     let isTicking = false;
     function handleScroll() {
         if (!header) return;
         const scrollY = window.scrollY;
-        const isScrolled = scrollY > 50;
 
-        if (isScrolled) {
-            header.className = "fixed top-0 left-0 right-0 z-[100] transition-all duration-300 py-3 bg-[#faf6ee] border-b border-[#c5a059]/25 shadow-sm";
+        // Auto-hide navbar when scrolling down, show when scrolling up or at top
+        if (scrollY > lastScrollY && scrollY > 80) {
+            header.classList.add('-translate-y-full');
+            header.classList.remove('translate-y-0');
         } else {
-            header.className = "fixed top-0 left-0 right-0 z-[100] transition-all duration-300 py-4 bg-transparent border-none";
+            header.classList.remove('-translate-y-full');
+            header.classList.add('translate-y-0');
+        }
+        lastScrollY = scrollY;
+
+        // Add warm background when scrolled past Beranda / top
+        if (scrollY > 50) {
+            header.classList.add('bg-[#faf6ee]/95', 'backdrop-blur-md', 'border-b', 'border-[#c5a059]/25', 'shadow-sm', 'py-3');
+            header.classList.remove('bg-transparent', 'border-none', 'py-4');
+        } else {
+            header.classList.remove('bg-[#faf6ee]/95', 'backdrop-blur-md', 'border-b', 'border-[#c5a059]/25', 'shadow-sm', 'py-3');
+            header.classList.add('bg-transparent', 'border-none', 'py-4');
         }
 
         let currentSectionId = 'beranda';
@@ -99,9 +157,9 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileLinks.forEach(link => {
             const href = link.getAttribute('href').replace('#', '');
             if (href === currentSectionId) {
-                link.className = "mobile-nav-link text-base font-bold text-[#c5a059] bg-[#faf6ee] px-4 py-2.5 rounded-xl border border-[#c5a059]/20 transition-all duration-200 shadow-sm";
+                link.className = "mobile-nav-link mobile-nav-item text-lg sm:text-xl font-black text-[#7a5917] bg-[#fdfbf7] border border-[#c5a059]/40 shadow-sm px-8 py-3 rounded-2xl transition-all duration-300 w-full";
             } else {
-                link.className = "mobile-nav-link text-base font-semibold text-slate-700 hover:text-[#c5a059] px-4 py-2.5 rounded-xl transition-all duration-200";
+                link.className = "mobile-nav-link mobile-nav-item text-lg sm:text-xl font-bold text-slate-800 hover:text-[#7a5917] px-8 py-3 rounded-2xl transition-all duration-300 w-full";
             }
         });
     }
