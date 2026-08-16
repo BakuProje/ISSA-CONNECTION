@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISSA CONNECTION - Jasa Sewa Tenda & Jasa Dekorasi Makassar Terbaik</title>
-
-    <!-- Favicon declarations compliant with Google Search Favicon Guidelines & Browser standards -->
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
     <link rel="icon" type="image/png" sizes="48x48" href="{{ asset('favicon-48x48.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
@@ -27,29 +25,39 @@
     <meta property="og:title" content="ISSA CONNECTION - Jasa Sewa Tenda & Jasa Dekorasi Makassar Terbaik">
     <meta property="og:description"
         content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
-    <meta property="og:image" content="https://issaconnection.com/images/logobg.png">
-    <meta property="og:image:secure_url" content="https://issaconnection.com/images/logobg.png">
+    <!-- Open Graph Images (JPG & PNG) -->
+    <meta property="og:image" content="https://issaconnection.com/images/og-image.jpg">
+    <meta property="og:image:secure_url" content="https://issaconnection.com/images/og-image.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:alt" content="ISSA CONNECTION - Jasa Sewa Tenda & Dekorasi Makassar">
+
+    <meta property="og:image" content="https://issaconnection.com/images/og-image.png">
+    <meta property="og:image:secure_url" content="https://issaconnection.com/images/og-image.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="600">
+    <meta property="og:image:alt" content="ISSA CONNECTION - Jasa Sewa Tenda & Dekorasi Makassar">
+
     <meta property="og:locale" content="id_ID">
     <meta property="og:site_name" content="ISSA CONNECTION">
 
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://issaconnection.com/">
     <meta name="twitter:title" content="ISSA CONNECTION - Jasa Sewa Tenda & Jasa Dekorasi Makassar Terbaik">
     <meta name="twitter:description"
         content="ISSA CONNECTION adalah penyedia jasa sewa tenda pernikahan, tenda kerucut, tenda hall, dekorasi pengantin, serta perlengkapan meja kursi terbaik & terpercaya di Makassar.">
-    <meta name="twitter:image" content="https://issaconnection.com/images/logobg.png">
+    <meta name="twitter:image" content="https://issaconnection.com/images/og-image.jpg">
 
     <!-- Schema.org JSON-LD Structured Data for LocalBusiness & Services -->
     @verbatim
-    <script type="application/ld+json">
+        <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "ISSA CONNECTION",
-      "image": "https://issaconnection.com/images/logobg.png",
+      "image": "https://issaconnection.com/images/og-image.jpg",
       "@id": "https://issaconnection.com/#organization",
       "url": "https://issaconnection.com/",
       "telephone": "+6281147001554",
