@@ -59,9 +59,9 @@
     </div>
 </header>
 
-<!-- Fullscreen Pop-Up Overlay Menu with public/images/bgmobile.webp Background -->
-<div id="mobile-menu-drawer" style="background-image: url('{{ asset('images/bgmobile.webp') }}');"
-    class="fixed inset-0 bg-[#faf6ee] bg-cover bg-center bg-no-repeat z-[999] transition-all duration-300 opacity-0 pointer-events-none lg:hidden flex flex-col justify-between p-6 sm:p-8 overflow-y-auto">
+<!-- Fullscreen Pop-Up Overlay Menu with public/images/bgmobile.png Background -->
+<div id="mobile-menu-drawer" style="background-image: url('{{ asset('images/bgmobile.png') }}'); touch-action: none;"
+    class="fixed inset-0 h-full w-full bg-[#faf6ee] bg-cover bg-center bg-no-repeat z-[999] transition-all duration-300 opacity-0 pointer-events-none lg:hidden flex flex-col justify-between p-6 sm:p-8 touch-none overflow-hidden">
 
     <!-- Top Bar Inside Overlay: Logo at Top-Left & Close 'X' Button at Top-Right -->
     <div

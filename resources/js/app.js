@@ -24,6 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const navItems = document.querySelectorAll('.mobile-nav-item');
     let isMenuOpen = false;
 
+    function preventTouch(e) {
+        if (isMenuOpen) {
+            e.preventDefault();
+        }
+    }
+
     function openDrawer() {
         if (!drawer) return;
         isMenuOpen = true;
@@ -38,7 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         drawer.classList.remove('pointer-events-none', 'opacity-0');
         drawer.classList.add('opacity-100', 'pointer-events-auto');
-        document.body.classList.add('overflow-hidden');
+        document.body.classList.add('overflow-hidden', 'touch-none');
+        document.documentElement.classList.add('overflow-hidden', 'touch-none');
+        window.addEventListener('touchmove', preventTouch, { passive: false });
 
         // Staggered entrance animation for text items ("muncul 1 per 1")
         navItems.forEach((item, index) => {
@@ -70,7 +78,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         drawer.classList.remove('opacity-100', 'pointer-events-auto');
         drawer.classList.add('opacity-0', 'pointer-events-none');
-        document.body.classList.remove('overflow-hidden');
+        document.body.classList.remove('overflow-hidden', 'touch-none');
+        document.documentElement.classList.remove('overflow-hidden', 'touch-none');
+        window.removeEventListener('touchmove', preventTouch);
     }
 
     const menuCloseBtn = document.getElementById('mobile-menu-close');

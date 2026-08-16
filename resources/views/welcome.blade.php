@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id" class="scroll-smooth overflow-x-hidden w-full">
+<html lang="id" class="scroll-smooth overflow-x-hidden w-full bg-[#faf6ee]">
 
 <head>
     <meta charset="utf-8">
@@ -137,25 +137,27 @@
             href="https://fonts.googleapis.com/css2?family=Alex+Brush&text=Untuk%20Momen%20Terindah%20Anda&display=swap">
     </noscript>
 
-    @verbatim
     <style>
-        #fixed-bg {
-            background-image: url('/images/bgmobile.webp');
+        html {
+            background-color: #faf6ee !important;
         }
 
-        @media (min-width: 768px) {
+        #fixed-bg {
+            background-image: url('{{ asset('images/bgmobile.png') }}');
+        }
+
+        @@media (min-width: 768px) {
             #fixed-bg {
-                background-image: url('/images/bgtablet.webp');
+                background-image: url('{{ asset('images/bgtablet.png') }}');
             }
         }
 
-        @media (min-width: 1024px) {
+        @@media (min-width: 1024px) {
             #fixed-bg {
-                background-image: url('/images/bgwebsite.webp');
+                background-image: url('{{ asset('images/bgwebsite.png') }}');
             }
         }
     </style>
-    @endverbatim
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
