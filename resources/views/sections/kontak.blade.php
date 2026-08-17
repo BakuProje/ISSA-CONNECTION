@@ -57,7 +57,7 @@
                         </div>
                     </a>
 
-                    <a href="http://instagram.com/issaconnection16082026" target="_blank" rel="noopener noreferrer"
+                    <a href="http://instagram.com/issa.connection_makassar" target="_blank" rel="noopener noreferrer"
                         class="flex items-center gap-4 p-5 bg-white/20 backdrop-blur-md border border-[#c5a059]/20 rounded-2xl shadow-sm hover:shadow-md hover:border-[#c5a059] transition-all duration-200 group">
                         <div
                             class="w-12 h-12 rounded-xl bg-neutral-950 text-[#c5a059] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
@@ -70,7 +70,7 @@
                             <div class="text-[11px] font-bold text-[#7a5917] tracking-wider uppercase">INSTAGRAM</div>
                             <div
                                 class="text-base font-bold text-slate-900 group-hover:text-[#c5a059] transition-colors">
-                                @issaconnection16082026</div>
+                                @issa.connection_makassar</div>
                         </div>
                     </a>
 
